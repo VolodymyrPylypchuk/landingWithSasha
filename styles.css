@@ -1,22 +1,31 @@
 * {
     margin:0;
+<<<<<<< HEAD
     padding: 0;
+=======
+>>>>>>> 530cfd7 (First blocks)
     
 }
 
 /* header - nav*/
 header {
     width:100%;
+<<<<<<< HEAD
     background-image: url(/img/header_nav.svg);
     background-position: center;
     background-repeat: no-repeat;
     position: fixed;
     z-index: 5;
     
+=======
+    background-image: url("/img/header_nav.svg") ;
+    position: fixed;
+>>>>>>> 530cfd7 (First blocks)
 }
 
 .container-header {
     max-width: 1170px;
+<<<<<<< HEAD
     margin-top: 40px;
     margin-bottom: 20px;
     margin-left: auto;
@@ -29,11 +38,30 @@ header {
 
 
 .menu { 
+=======
+    height: 55px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.logo{
+    width: 189px;
+    height: 31px;  
+}
+
+.menu { 
+
+>>>>>>> 530cfd7 (First blocks)
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+<<<<<<< HEAD
     
 }
 
@@ -42,11 +70,24 @@ header {
        display: inline-block;
        display: flex;
        column-gap: 52px;
+=======
+
+}
+
+
+
+    nav ul,
+    nav ul li {
+       display: inline-block;
+       padding: 30px;
+       
+>>>>>>> 530cfd7 (First blocks)
     }
      
     nav ul li a {
         text-decoration: none;
         color: #fff;
+<<<<<<< HEAD
        
     }
     nav ul li a:hover {
@@ -55,6 +96,19 @@ header {
  
 .nav-btm {
     padding: 18px 35px;
+=======
+    }
+    nav ul li a:hover {
+        text-decoration: underline;
+    }    
+    
+    
+
+
+.nav-btm {
+    width: 140px;
+    height: 55px;
+>>>>>>> 530cfd7 (First blocks)
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(237, 255, 129, 0.4);
     border-radius: 116px;
@@ -67,6 +121,7 @@ header {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+<<<<<<< HEAD
 }
 
 
@@ -79,6 +134,20 @@ header {
     background-image: url("/img/hero.svg") ;
     background-position: center;
     background-repeat: no-repeat;
+=======
+    
+}
+
+
+/* Main screen */
+
+
+
+.main-screen {
+    width: 100%;
+    height: 852px;
+    background-image: url("/img/hero.svg") ;
+>>>>>>> 530cfd7 (First blocks)
     display: flex;
     align-items: center;
     flex-direction: column; 
@@ -86,6 +155,7 @@ header {
 
 
 .main-back {
+<<<<<<< HEAD
     margin-top: 200px;
     display: flex;
     flex-direction: column;
@@ -94,6 +164,21 @@ header {
 }  
 
  .text-cont {
+=======
+
+    width: 810px;
+    height: 180px;
+    margin-top: 200px;
+    
+    
+}  
+
+
+
+ .text-cont {
+    width: 686px;
+    height: 80px;
+>>>>>>> 530cfd7 (First blocks)
     margin-top: 30px;
     text-align: center;
     font-family: 'Rubik';
@@ -102,8 +187,12 @@ header {
     font-size: 22px;
     line-height: 40px;
     color:#FFFFFF;
+<<<<<<< HEAD
     opacity: .6;
   
+=======
+    opacity: 0.6;
+>>>>>>> 530cfd7 (First blocks)
  }   
  
 h1{
@@ -115,6 +204,7 @@ font-size: 90px;
 line-height: 107px;
 color:#FFFFFF;
 text-align: center;
+<<<<<<< HEAD
 z-index: 1;
 
 }
@@ -135,6 +225,10 @@ z-index: 0;
 }
 
 h3 {
+=======
+}
+h2 {
+>>>>>>> 530cfd7 (First blocks)
 
 font-family: 'Rubik';
 font-style: normal;
@@ -146,11 +240,20 @@ text-align: center;
 }
 
 .get-start-btn {
+<<<<<<< HEAD
 padding: 27px 62px;
 background: linear-gradient(328.68deg, #98AA28 13.03%, #D6FF7E 120.61%);
 box-shadow: 0px 34px 50px rgba(7, 63, 67, 0.07);
 border-radius: 192px;
 margin-top: 68px;
+=======
+width: 243px;
+height: 89px;
+background: linear-gradient(328.68deg, #98AA28 13.03%, #D6FF7E 120.61%);
+box-shadow: 0px 34px 50px rgba(7, 63, 67, 0.07);
+border-radius: 192px;
+margin-top: 70px;
+>>>>>>> 530cfd7 (First blocks)
 cursor: pointer;
 color: white;
 font-family: 'Rubik';
@@ -162,6 +265,7 @@ line-height: 24px;
 }
 /*  Vector line left-right h2*/
 .block-line {
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,10 +288,43 @@ line-height: 24px;
     display: flex;
     justify-content: space-around; 
     align-items: center; 
+=======
+    width: 375px;
+    height: 35px;
+    margin-left: 220px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+    
+ }  
+    
+
+.vector-line{
+    width: 60px;
+    border: 1px solid white;
+    opacity: 0.4;
+    
+    
+    
+    }
+
+/* Brand block */
+
+.brand-block {
+    display: flex;
+    background: #F6FBF9;
+    width: 100%;
+    justify-content: center;  
+>>>>>>> 530cfd7 (First blocks)
 
 }
 
 .brands {
+<<<<<<< HEAD
     margin-top: 13px;
     display: flex;
     align-items: center;
@@ -487,3 +624,20 @@ justify-content: center;
 
 
 
+=======
+    width: 1111px;
+    height: 100px;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo-brand {
+    object-fit: none;
+    width: 180px;
+    height: 50px;
+    
+}
+
+>>>>>>> 530cfd7 (First blocks)
