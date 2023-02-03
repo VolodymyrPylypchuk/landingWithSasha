@@ -1,15 +1,20 @@
 * {
     margin:0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding: 0;
 =======
 >>>>>>> 530cfd7 (First blocks)
+=======
+    padding: 0;
+>>>>>>> e8764e9 (new block-error correction)
     
 }
 
 /* header - nav*/
 header {
     width:100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
     background-image: url(/img/header_nav.svg);
     background-position: center;
@@ -21,10 +26,19 @@ header {
     background-image: url("/img/header_nav.svg") ;
     position: fixed;
 >>>>>>> 530cfd7 (First blocks)
+=======
+    background-image: url(/img/header_nav.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 5;
+    
+>>>>>>> e8764e9 (new block-error correction)
 }
 
 .container-header {
     max-width: 1170px;
+<<<<<<< HEAD
 <<<<<<< HEAD
     margin-top: 40px;
     margin-bottom: 20px;
@@ -41,26 +55,31 @@ header {
 =======
     height: 55px;
     margin: 0 auto;
+=======
+>>>>>>> e8764e9 (new block-error correction)
     margin-top: 40px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    justify-content: space-around;
-    align-items: center;  
+    justify-content: space-between;
+    align-items: center; 
+    
 }
 
-.logo{
-    width: 189px;
-    height: 31px;  
-}
 
 .menu { 
+<<<<<<< HEAD
 
 >>>>>>> 530cfd7 (First blocks)
+=======
+>>>>>>> e8764e9 (new block-error correction)
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+<<<<<<< HEAD
 <<<<<<< HEAD
     
 }
@@ -72,21 +91,28 @@ header {
        column-gap: 52px;
 =======
 
+=======
+    
+>>>>>>> e8764e9 (new block-error correction)
 }
-
-
 
     nav ul,
     nav ul li {
        display: inline-block;
+<<<<<<< HEAD
        padding: 30px;
        
 >>>>>>> 530cfd7 (First blocks)
+=======
+       display: flex;
+       column-gap: 52px;
+>>>>>>> e8764e9 (new block-error correction)
     }
      
     nav ul li a {
         text-decoration: none;
         color: #fff;
+<<<<<<< HEAD
 <<<<<<< HEAD
        
     }
@@ -97,18 +123,22 @@ header {
 .nav-btm {
     padding: 18px 35px;
 =======
+=======
+       
+>>>>>>> e8764e9 (new block-error correction)
     }
     nav ul li a:hover {
         text-decoration: underline;
-    }    
-    
-    
-
-
+    }
+ 
 .nav-btm {
+<<<<<<< HEAD
     width: 140px;
     height: 55px;
 >>>>>>> 530cfd7 (First blocks)
+=======
+    padding: 18px 35px;
+>>>>>>> e8764e9 (new block-error correction)
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(237, 255, 129, 0.4);
     border-radius: 116px;
@@ -121,6 +151,7 @@ header {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -136,18 +167,24 @@ header {
     background-repeat: no-repeat;
 =======
     
+=======
+>>>>>>> e8764e9 (new block-error correction)
 }
 
 
-/* Main screen */
 
-
+/* ------ Main screen section ---------*/
 
 .main-screen {
-    width: 100%;
-    height: 852px;
+    
+    min-height: 852px;
     background-image: url("/img/hero.svg") ;
+<<<<<<< HEAD
 >>>>>>> 530cfd7 (First blocks)
+=======
+    background-position: center;
+    background-repeat: no-repeat;
+>>>>>>> e8764e9 (new block-error correction)
     display: flex;
     align-items: center;
     flex-direction: column; 
@@ -155,6 +192,7 @@ header {
 
 
 .main-back {
+<<<<<<< HEAD
 <<<<<<< HEAD
     margin-top: 200px;
     display: flex;
@@ -168,17 +206,22 @@ header {
 
     width: 810px;
     height: 180px;
+=======
+>>>>>>> e8764e9 (new block-error correction)
     margin-top: 200px;
+    display: flex;
+    flex-direction: column;
     
-    
+  
 }  
 
-
-
  .text-cont {
+<<<<<<< HEAD
     width: 686px;
     height: 80px;
 >>>>>>> 530cfd7 (First blocks)
+=======
+>>>>>>> e8764e9 (new block-error correction)
     margin-top: 30px;
     text-align: center;
     font-family: 'Rubik';
@@ -188,11 +231,16 @@ header {
     line-height: 40px;
     color:#FFFFFF;
 <<<<<<< HEAD
+<<<<<<< HEAD
     opacity: .6;
   
 =======
     opacity: 0.6;
 >>>>>>> 530cfd7 (First blocks)
+=======
+    opacity: .6;
+  
+>>>>>>> e8764e9 (new block-error correction)
  }   
  
 h1{
@@ -204,6 +252,7 @@ font-size: 90px;
 line-height: 107px;
 color:#FFFFFF;
 text-align: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
 z-index: 1;
 
@@ -229,6 +278,28 @@ h3 {
 }
 h2 {
 >>>>>>> 530cfd7 (First blocks)
+=======
+z-index: 1;
+
+}
+
+/* Wave line h1 */
+.wave-line {
+
+width: 450px;
+height: 9px;
+background-image: url("/img/wave.svg");
+background-repeat: no-repeat;
+margin-left: 333px;
+margin-top: -15px;
+background-size: cover;
+opacity: .5;
+z-index: 0;
+
+}
+
+h3 {
+>>>>>>> e8764e9 (new block-error correction)
 
 font-family: 'Rubik';
 font-style: normal;
@@ -240,6 +311,7 @@ text-align: center;
 }
 
 .get-start-btn {
+<<<<<<< HEAD
 <<<<<<< HEAD
 padding: 27px 62px;
 background: linear-gradient(328.68deg, #98AA28 13.03%, #D6FF7E 120.61%);
@@ -254,6 +326,13 @@ box-shadow: 0px 34px 50px rgba(7, 63, 67, 0.07);
 border-radius: 192px;
 margin-top: 70px;
 >>>>>>> 530cfd7 (First blocks)
+=======
+padding: 27px 62px;
+background: linear-gradient(328.68deg, #98AA28 13.03%, #D6FF7E 120.61%);
+box-shadow: 0px 34px 50px rgba(7, 63, 67, 0.07);
+border-radius: 192px;
+margin-top: 68px;
+>>>>>>> e8764e9 (new block-error correction)
 cursor: pointer;
 color: white;
 font-family: 'Rubik';
@@ -265,6 +344,7 @@ line-height: 24px;
 }
 /*  Vector line left-right h2*/
 .block-line {
+<<<<<<< HEAD
 <<<<<<< HEAD
     display: flex;
     justify-content: center;
@@ -293,37 +373,40 @@ line-height: 24px;
     height: 35px;
     margin-left: 220px;
     margin-top: 25px;
+=======
+>>>>>>> e8764e9 (new block-error correction)
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    
-    
-    
-    
- }  
-    
+    column-gap: 50px;
+ }   
 
 .vector-line{
-    width: 60px;
+    width: 58px;
     border: 1px solid white;
-    opacity: 0.4;
-    
-    
+    opacity: .4;
+    display: flex;
     
     }
 
-/* Brand block */
+/* ----- Brand section ------- */
 
 .brand-block {
-    display: flex;
-    background: #F6FBF9;
     width: 100%;
+<<<<<<< HEAD
     justify-content: center;  
 >>>>>>> 530cfd7 (First blocks)
+=======
+    background: #F6FBF9;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+>>>>>>> e8764e9 (new block-error correction)
 
 }
 
 .brands {
+<<<<<<< HEAD
 <<<<<<< HEAD
     margin-top: 13px;
     display: flex;
@@ -627,17 +710,308 @@ justify-content: center;
 =======
     width: 1111px;
     height: 100px;
+=======
+>>>>>>> e8764e9 (new block-error correction)
     margin-top: 13px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
-}
-.logo-brand {
-    object-fit: none;
-    width: 180px;
-    height: 50px;
+    justify-content: space-between;
+    column-gap: 138px;
     
 }
 
+<<<<<<< HEAD
 >>>>>>> 530cfd7 (First blocks)
+=======
+
+/* ------- Services section -------- */
+
+.services {
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.services-container{ 
+    display: flex;
+
+}
+
+
+.services-about {
+    width: 585px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.services-about h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 65px;
+    letter-spacing: 0.02em;
+    color: #253D32;
+    
+}
+
+.services-about p {
+    
+    margin-top: 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    color: #78847D;
+
+}
+
+/* See more & Arrow btn */
+
+.see-more {
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 16px;
+    margin-top: 40px;
+
+}
+
+.see-more-link {
+   
+    color: #A3B938;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+
+}
+.see-more a{
+    height: 24px;
+
+}
+
+/* Services List section */
+
+.services-list {
+    width: 585px;
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.services-list h4 {
+    margin-top: 40px;
+    color: #253D32; 
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+.services-list p {
+    width: 228px;
+    margin-top: 25px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #78847D;
+}
+
+.services-list .list-development p {
+    width: 244px;
+}
+
+
+.list-creation {
+    margin-top: 80px;
+
+}
+.list-optimization{
+    margin-top: 80px;
+  
+}
+
+
+/* ----- Social media Reach section */
+
+.social-media{
+    display: flex;
+    justify-content: center;
+
+}
+.services-social {
+    width: 1170px;
+    padding-bottom: 172px;
+    display: flex;
+    column-gap: 66px;
+    
+
+}
+.services-social img {
+    margin-top: 88px;
+    margin-left: -54px;
+}
+
+.services-start {
+    margin-top: 139px;
+   
+
+}
+
+.services-start h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 65px;
+    letter-spacing: 0.02em;
+    color: #253D32;
+}
+.services-start p {
+    width: 436px;
+    margin-top: 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    color: #78847D;
+
+}
+
+
+.services-start .get-start-btn {
+    margin-top: 50px;
+}
+
+/*-----How Can We Help You----*/
+
+.help-you {
+width: 100%;
+background-color: #F6FBF9;
+display: flex;
+justify-content: center;
+
+
+
+
+}
+.help-you-container{
+    width: 1170px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: aqua;
+
+}
+
+.work-algorithm {
+    width: 1138px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+
+    background-color: #6c8043;
+}
+
+.circle-line {
+    width: 1138px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: goldenrod;
+
+}
+
+.content-website{
+    width: 100px;
+    height: 100px;
+    
+
+    background-color: #FFFFFF;
+    border-radius: 100%;
+}
+.content-website img {
+    padding: 25px;
+}
+
+.improve-user-experience{
+    width: 40px;
+    height: 40px; 
+   
+    border-radius: 100%;
+    background-color: red;
+}
+.website-review{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: blue;
+}
+.improve-seo{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: green;
+}
+
+
+
+
+
+
+
+.help-you h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 65px;
+    letter-spacing: 0.02em;
+    color: #253D32;
+
+}
+
+.help-you p {
+    margin-top: 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #78847D;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> e8764e9 (new block-error correction)
